@@ -41,6 +41,9 @@
 
   <actions>
     <!-- Add your actions here -->
+    <action id="TestPlugin.InputHandlerAction" class="InputHandlerAction" text="Editor basics">
+      <add-to-group group-id="EditorPopupMenu" anchor="first" />
+    </action>
   </actions>
 
 </idea-plugin>
